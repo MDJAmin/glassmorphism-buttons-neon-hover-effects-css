@@ -41,6 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 2px 2px 7px black;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -81,8 +82,8 @@ body {
     left: 50%;
     transform: translatex(-50%);
     bottom: -5px;
-    width: 30px;
-    height: 10px;
+    width: 0px;
+    height: 0px;
     background: #f00;
     border-radius: 10px;
     transition: 0.5s;
@@ -100,8 +101,8 @@ body {
     left: 50%;
     transform: translatex(-50%);
     top: -5px;
-    width: 30px;
-    height: 10px;
+    width: 0px;
+    height: 0px;
     background: #f00;
     border-radius: 10px;
     transition: 0.5s;
@@ -120,8 +121,8 @@ body {
 }
 .container .btn:nth-child(2)::before,
 .container .btn:nth-child(2)::after {
-    background: #2db2ff;
-    box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff, 0 0 60px #2db2ff;
+    background: #dfac07;
+    box-shadow: 0 0 5px #dfac07, 0 0 15px #dfac07, 0 0 30px #dfac07, 0 0 60px #dfac07;
 }
 .container .btn:nth-child(3)::before,
 .container .btn:nth-child(3)::after {
