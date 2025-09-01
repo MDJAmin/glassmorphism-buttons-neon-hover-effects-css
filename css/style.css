@@ -116,19 +116,16 @@ body {
 }
 .container .btn:nth-child(1)::before,
 .container .btn:nth-child(1)::after {
-  background: #ff1f71;
-  box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
-    0 0 60px #ff1f71;
+  background: #ff1f1f;
+  box-shadow: 0 0 5px #ff0000, 0 0 15px #ff1f1f, 0 0 30px #ff1f1f, 0 0 60px #ff1f1f;
 }
 .container .btn:nth-child(2)::before,
 .container .btn:nth-child(2)::after {
   background: #dfac07;
-  box-shadow: 0 0 5px #dfac07, 0 0 15px #dfac07, 0 0 30px #dfac07,
-    0 0 60px #dfac07;
+  box-shadow: 0 0 5px #dfac07, 0 0 15px #dfac07, 0 0 30px #dfac07, 0 0 60px #dfac07;
 }
 .container .btn:nth-child(3)::before,
 .container .btn:nth-child(3)::after {
   background: #1eff45;
-  box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
-    0 0 60px #1eff45;
+  box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45, 0 0 60px #1eff45;
 }
